@@ -24,7 +24,7 @@ public class Client {
 		ECE,CSE,IT,EEE,MECH;
 	}
 	public static void main(String[] args) throws JAXBException {
-		University u=new University();
+	/*	University u=new University();
 		u.setName("JNTUK");
 		
 	Address add=new Address();
@@ -63,12 +63,12 @@ public class Client {
 	List<College> collegeList=new ArrayList<College>();
 	collegeList.add(c);
 	u.setColleges(collegeList);
-	
+*/	
 	//System.out.println(u);
 	JAXBContext jaxbContext = JAXBContext.newInstance(University.class);
 	 Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 	 jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-	 jaxbMarshaller.marshal(u, new File("./university.xml"));
+	// jaxbMarshaller.marshal(u, new File("./university.xml"));
 	
 	
 	
