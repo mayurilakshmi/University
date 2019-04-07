@@ -22,6 +22,7 @@ public class Client {
 	}
 	enum name{
 		ECE,CSE,IT,EEE,MECH;
+		//here  a just shutup and getout
 	}
 	public static void main(String[] args) throws JAXBException {
 	/*	University u=new University();
