@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<university>
+    <collegeAdress>
+        <area>prlayout</area>
+        <district>marthahalli</district>
+        <line>1</line>
+    </collegeAdress>
+    <Colleges>
+        <college>
+            <name>QIS</name>
+            <Students>
+                <Student>
+                    <id>101</id>
+                    <marks>400</marks>
+                    <name>LP</name>
+                </Student>
+                <Student>
+                    <id>103</id>
+                    <marks>900</marks>
+                    <name>srikanth</name>
+                </Student>
+                <Student>
+                    <id>102</id>
+                    <marks>700</marks>
+                    <name>madhu</name>
+                </Student>
+            </Students>
+        </college>
+    </Colleges>
+    <name>JNTUK</name>
+</university>
